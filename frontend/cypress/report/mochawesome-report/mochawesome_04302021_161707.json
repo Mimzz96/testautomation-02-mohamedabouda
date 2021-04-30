@@ -1,0 +1,183 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 5,
+    "passes": 5,
+    "pending": 0,
+    "failures": 0,
+    "start": "2021-04-30T14:16:54.185Z",
+    "end": "2021-04-30T14:17:07.953Z",
+    "duration": 13768,
+    "testsRegistered": 5,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "11e9495d-43a4-41f6-a775-c0548d56c3e0",
+      "title": "",
+      "fullFile": "cypress/integration/TestSuite.spec.js",
+      "file": "cypress/integration/TestSuite.spec.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "ea67ea96-6dde-44f3-8b4e-ce6fd8d589e8",
+          "title": "Test Suite",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "TestCase1",
+              "fullTitle": "Test Suite TestCase1",
+              "timedOut": null,
+              "duration": 2054,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "a.login();\ncy.percySnapshot('First screenshot of the loginlogout test');\na.logout();",
+              "err": {},
+              "uuid": "bd26f336-9d23-4d52-a2e1-967578da0ffe",
+              "parentUUID": "ea67ea96-6dde-44f3-8b4e-ce6fd8d589e8",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "TestCase2",
+              "fullTitle": "Test Suite TestCase2",
+              "timedOut": null,
+              "duration": 2577,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "const b = new _createRoom.default();\na.login();\nb.createroom();\ncy.percySnapshot('Screenshot after creating a new room');\na.logout();",
+              "err": {},
+              "uuid": "e3506f54-bfb0-4bca-a31d-2ab89f55760f",
+              "parentUUID": "ea67ea96-6dde-44f3-8b4e-ce6fd8d589e8",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "TestCase3",
+              "fullTitle": "Test Suite TestCase3",
+              "timedOut": null,
+              "duration": 2765,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "const c = new _createClient.default();\na.login();\nc.createclient();\ncy.percySnapshot('Screenshot after creating a new client');\na.logout();",
+              "err": {},
+              "uuid": "2b71eb49-c818-46db-89ba-d02e348f6995",
+              "parentUUID": "ea67ea96-6dde-44f3-8b4e-ce6fd8d589e8",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "TestCase4",
+              "fullTitle": "Test Suite TestCase4",
+              "timedOut": null,
+              "duration": 2112,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "const d = new _createBill.default();\na.login();\nd.createbill();\ncy.percySnapshot('Screenshot after creating a new bill');\na.logout();",
+              "err": {},
+              "uuid": "bd8cac34-b467-4cec-b846-272bc0b0cd8f",
+              "parentUUID": "ea67ea96-6dde-44f3-8b4e-ce6fd8d589e8",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "TestCase5",
+              "fullTitle": "Test Suite TestCase5",
+              "timedOut": null,
+              "duration": 2455,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "const e = new _createReservation.default();\na.login();\ne.createreservation();\ncy.percySnapshot('Screenshot after creating a new bill');\na.logout();",
+              "err": {},
+              "uuid": "45c3e2dd-44fa-437a-886b-2ac1ab8b2f5b",
+              "parentUUID": "ea67ea96-6dde-44f3-8b4e-ce6fd8d589e8",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "bd26f336-9d23-4d52-a2e1-967578da0ffe",
+            "e3506f54-bfb0-4bca-a31d-2ab89f55760f",
+            "2b71eb49-c818-46db-89ba-d02e348f6995",
+            "bd8cac34-b467-4cec-b846-272bc0b0cd8f",
+            "45c3e2dd-44fa-437a-886b-2ac1ab8b2f5b"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 11963,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "6.2.2"
+    },
+    "marge": {
+      "options": {
+        "reportDir": "cypress/report/mochawesome-report",
+        "overwrite": false,
+        "html": true,
+        "json": true,
+        "timestamp": "mmddyyyy_HHMMss",
+        "chromeWebSecurity": false
+      },
+      "version": "5.2.0"
+    }
+  }
+}
